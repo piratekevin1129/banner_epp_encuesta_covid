@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.8" client="site" method="upgrade">
+	<name>Banner COVID y Encuesta SGSST</name>
+	<author>Virtual Colors S.A.S.</author>
+	<creationDate>15 Mayo 2020</creationDate>
+	<copyright>Copyright (C) 2020 virtualcolors.com.co</copyright>
+	<authorEmail>desarrollo3@virtualcolors.com.co</authorEmail>
+	<authorUrl>https://www.virtualcolors.com.co</authorUrl>
+	<version>1.0.0</version>
+	<description>Módulo para el banner de COVID-19 y Encuesta en la sección de SGSST</description>
+
+	<files>
+		<filename module="mod_banner_covid_sgsst">mod_banner_covid_sgsst.php</filename>
+		<filename module="mod_banner_covid_sgsst">tmpl/default.php</filename>
+		<filename module="mod_banner_covid_sgsst">tmpl/index.html</filename>
+		<filename module="mod_banner_covid_sgsst">assets/styles.css</filename>
+		<filename module="mod_banner_covid_sgsst">assets/banner_covid.jpg</filename>
+		<filename module="mod_banner_covid_sgsst">assets/banner_encuesta.svg</filename>
+		<filename module="mod_banner_covid_sgsst">assets/long-arrow-alt-right-solid.svg</filename>
+		<filename module="mod_banner_covid_sgsst">helper.php</filename>
+		<filename module="mod_banner_covid_sgsst">index.html</filename>
+ 	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" label="Configuración">		
+				<field name="arl_banner_covid_sgsst_title" type="text" default="0" label="Título" description="Título para el mensaje" />
+				<field name="arl_banner_covid_sgsst_text" type="text" default="0" label="Mensaje" description="Mensaje" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

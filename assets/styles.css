@@ -1,0 +1,437 @@
+@font-face {
+    font-family: 'Barlow-Regular';
+    src: url('../../../templates/arlsuraresponsive/fonts/Barlow-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow-Bold';
+    src: url('../../../templates/arlsuraresponsive/fonts/Barlow-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow-Black';
+    src: url('../../../templates/arlsuraresponsive/fonts/Barlow-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#banner-entregas-epp-covid-content,
+#banner-encuesta-covid-content,
+#banner-encuesta-y-epp-covid-content
+{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    height: 287px;
+    cursor: pointer;
+}
+
+#banner-entregas-epp-covid-content a,
+#banner-entregas-epp-covid-content a:hover,
+#banner-encuesta-covid-content a,
+#banner-encuesta-covid-content a:hover,
+#banner-encuesta-y-epp-covid-content a,
+#banner-encuesta-y-epp-covid-content:hover
+{
+    text-decoration: none;
+}
+
+#banner-entregas-epp-covid,
+#banner-encuesta-covid{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 287px;
+}
+#banner-entregas-epp-covid{
+    background-color: #0033A0;
+}
+#banner-encuesta-covid{
+    background-color: #00AEC7;
+}
+
+
+#banner-entregas-epp-covid-2,
+#banner-encuesta-covid-2{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 287px;
+    float: left;
+}
+#banner-entregas-epp-covid-2{
+    width: 55%;
+    background-color: #0033A0;
+}
+#banner-encuesta-covid-2{
+    width: 45%;
+    background-color: #00AEC7;
+}
+
+
+#banner-entregas-epp-covid-img,
+#banner-encuesta-covid-img
+{
+    position: absolute;
+    box-sizing: border-box;    
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    background-repeat: no-repeat;
+}
+#banner-entregas-epp-covid-img{
+    width: 473px;
+    background-size: 473px 287px;
+    background-image: url(banner_covid.jpg);
+    background-position: center 0px;
+}
+#banner-encuesta-covid-img{
+    width: 433px;
+    background-size: 433px 287px;
+    background-image: url(banner_encuesta.svg);
+    background-position: 0px 0px;
+}
+
+#banner-entregas-epp-covid-texto,
+#banner-encuesta-covid-texto
+{
+    display: block;
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    padding-left: 60px;
+}
+#banner-entregas-epp-covid-texto{
+    width: 100%;
+    width: calc(100% - 473px);
+    width: -moz-calc(100% - 473px);
+}
+#banner-encuesta-covid-texto{
+    width: 100%;
+    width: calc(100% - 433px);
+    width: -moz-calc(100% - 433px);
+}
+
+#banner-entregas-epp-covid-texto-2,
+#banner-encuesta-covid-texto-2
+{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    padding-left: 60px;
+}
+
+#banner-entregas-epp-covid-texto h6,
+#banner-encuesta-covid-texto h6,
+#banner-entregas-epp-covid-texto-2 h6,
+#banner-encuesta-covid-texto-2 h6
+{
+    font-family: 'Barlow-Regular' !important;
+    margin: 0px;
+    display: block;
+    width: 100% !important;
+    padding: 0px;
+    
+    text-align: left !important;
+    font-size: 21px !important;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 5px;
+    text-decoration: none !important;
+}
+#banner-entregas-epp-covid-texto h6,
+#banner-entregas-epp-covid-texto-2 h6{
+
+    color: #FFFFFF !important;
+}
+#banner-encuesta-covid-texto h6,
+#banner-encuesta-covid-texto-2 h6{
+    color: #0033A0 !important;
+}
+
+#banner-entregas-epp-covid-texto h1,
+#banner-encuesta-covid-texto h1,
+#banner-entregas-epp-covid-texto-2 h1,
+#banner-encuesta-covid-texto-2 h1
+{
+    font-family: 'Barlow-Black' !important;
+    margin: 0px;
+    display: block;
+    width: 100% !important;
+    padding: 0px;
+    
+    text-align: left !important;
+    font-size: 31px !important;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 5px;
+    text-decoration: none !important;
+}
+#banner-entregas-epp-covid-texto h1,
+#banner-entregas-epp-covid-texto-2 h1{
+    color: #FFFFFF !important;
+}
+#banner-encuesta-covid-texto h1,
+#banner-encuesta-covid-texto-2 h1{
+    color: #0033A0 !important;
+}
+
+.ver-entregas-banner-btn,
+.ver-encuesta-banner-btn{
+    outline: none;
+    outline-width: 0;
+    display: block !important;
+    
+    border-radius: 40px;
+    height: 48px !important;
+    border: none !important;
+    background-color: #E3E829 !important;
+    font-family: 'Barlow-Bold' !important;
+    font-size: 15px !important;
+    color: #0033A0 !important;
+    text-align: center !important;
+    line-height: normal;
+    font-weight: normal;
+    margin: 0px;
+    margin-top: 25px;
+    padding: 0px;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.ver-entregas-banner-btn{
+    width: 180px !important;
+}
+.ver-encuesta-banner-btn{
+    width: 250px !important;
+    padding-right: 30px !important;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: calc(100% - 40px) center;
+    background-position: -moz-calc(100% - 40px) center;
+    background-image: url(long-arrow-alt-right-solid.svg);
+}
+
+@media (min-width: 960px) and (max-width: 1099px){
+    #banner-entregas-epp-covid-texto,
+    #banner-encuesta-covid-texto
+    {
+        width: 100%;
+        width: calc(100% - 400px);
+        width: -moz-calc(100% - 400px);
+        padding-left: 50px;
+    }
+    #banner-entregas-epp-covid-texto-2,
+    #banner-encuesta-covid-texto-2
+    {
+        width: 100%;
+        padding-left: 50px;
+    }
+    #banner-entregas-epp-covid-img{
+        width: 400px;
+    }
+    #banner-encuesta-covid-img{
+        width: 400px;
+        background-size: 400px 287px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 959px){
+    #banner-entregas-epp-covid-2{
+        width: 50%;
+    }
+    #banner-encuesta-covid-2{
+        width: 50%;
+    }
+
+    #banner-entregas-epp-covid-texto,
+    #banner-encuesta-covid-texto{
+        width: 100%;
+        width: calc(100% - 380px);
+        width: -moz-calc(100% - 380px);
+        padding-left: 40px;
+    }
+    #banner-entregas-epp-covid-texto-2,
+    #banner-encuesta-covid-texto-2{
+        width: 100%;
+        padding-left: 40px;   
+    }
+
+    #banner-entregas-epp-covid-texto h6,
+    #banner-encuesta-covid-texto h6,
+    #banner-entregas-epp-covid-texto-2 h6,
+    #banner-encuesta-covid-texto-2 h6
+    {
+        font-size: 20px !important;
+        margin-bottom: 5px;
+    }
+    #banner-entregas-epp-covid-texto h1,
+    #banner-encuesta-covid-texto h1,
+    #banner-entregas-epp-covid-texto-2 h1,
+    #banner-encuesta-covid-texto-2 h1
+    {
+        font-size: 28px !important;
+        margin-bottom: 5px;
+    }
+
+    #banner-entregas-epp-covid-img{
+        width: 380px;
+    }
+    #banner-encuesta-covid-img{
+        width: 380px;
+        background-size: 95% auto;
+        background-position: 0px bottom;
+    }
+    
+}
+
+@media (min-width: 560px) and (max-width: 767px){
+    #banner-entregas-epp-covid-2{
+        width: 50%;
+    }
+    #banner-encuesta-covid-2{
+        width: 50%;
+    }
+
+    #banner-entregas-epp-covid-texto,
+    #banner-encuesta-covid-texto
+    {
+        width: 65%;
+        padding-left: 20px;
+    }
+
+    #banner-entregas-epp-covid-texto-2,
+    #banner-encuesta-covid-texto-2
+    {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #banner-entregas-epp-covid-texto h6,
+    #banner-encuesta-covid-texto h6
+    {
+        font-size: 18px !important;
+        margin-bottom: 5px;
+    }
+    #banner-entregas-epp-covid-texto h1,
+    #banner-encuesta-covid-texto h1
+    {
+        font-size: 26px !important;
+        margin-bottom: 5px;
+    }
+
+    #banner-entregas-epp-covid-texto-2 h6,
+    #banner-encuesta-covid-texto-2 h6
+    {
+        font-size: 15px !important;
+        margin-bottom: 5px;
+    }
+    #banner-entregas-epp-covid-texto-2 h1,
+    #banner-encuesta-covid-texto-2 h1
+    {
+        font-size: 22px !important;
+        margin-bottom: 5px;
+    }
+    
+    .ver-entregas-banner-btn,
+    .ver-encuesta-banner-btn
+    {
+        margin-top: 20px;
+    }
+    #banner-entregas-epp-covid-img{
+        width: 35%;
+        top: 0px;
+    }
+    #banner-encuesta-covid-img{
+        width: 35%;
+        background-size: auto 100%;
+        background-position: 0px bottom;
+    }
+}
+
+@media (min-width: 230px) and (max-width: 559px){
+    #banner-encuesta-y-epp-covid-content{
+        height: auto;
+    }
+    #banner-entregas-epp-covid-2{
+        width: 100%;
+        float: none;
+    }
+    #banner-encuesta-covid-2{
+        width: 100%;
+        float: none;
+    }
+
+    #banner-entregas-epp-covid-texto,
+    #banner-encuesta-covid-texto,
+    #banner-entregas-epp-covid-texto-2,
+    #banner-encuesta-covid-texto-2
+    {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #banner-entregas-epp-covid-texto h6,
+    #banner-encuesta-covid-texto h6,
+    #banner-entregas-epp-covid-texto-2 h6,
+    #banner-encuesta-covid-texto-2 h6
+    {
+        font-size: 16px !important;
+        margin-bottom: 3px;
+    }
+    #banner-entregas-epp-covid-texto h1,
+    #banner-encuesta-covid-texto h1,
+    #banner-entregas-epp-covid-texto-2 h1,
+    #banner-encuesta-covid-texto-2 h1
+    {
+        font-size: 24px !important;
+        margin-bottom: 3px;
+    }
+    .ver-entregas-banner-btn,
+    .ver-encuesta-banner-btn
+    {
+        margin-top: 20px;
+    }
+    #banner-entregas-epp-covid-img,
+    #banner-encuesta-covid-img
+    {
+        display: none;
+        width: 0%;
+        height: 0%;
+        top: 0px;
+        right: 0px;
+        background-image: none;
+    }
+}
+
+@media (min-width: 230px) and (max-width: 459px){
+    
+}
+
+@media (min-width: 230px) and (max-width: 359px){
+    #banner-entregas-epp-covid-texto h6,
+    #banner-encuesta-covid-texto h6,
+    #banner-entregas-epp-covid-texto-2 h6,
+    #banner-encuesta-covid-texto-2 h6
+    {
+        font-size: 15px !important;
+        margin-bottom: 3px;
+    }
+    #banner-entregas-epp-covid-texto h1,
+    #banner-encuesta-covid-texto h1,
+    #banner-entregas-epp-covid-texto-2 h1,
+    #banner-encuesta-covid-texto-2 h1
+    {
+        font-size: 22px !important;
+        margin-bottom: 3px;
+    }
+}
